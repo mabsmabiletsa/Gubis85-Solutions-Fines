@@ -7,28 +7,27 @@
     <link rel="stylesheet" href="/style/styles.css">
 </head>
 <body>
- <!--   <header>
-        <img src="/assests/PHOTO-2024-08-07-12-28-28 (1).jpg" alt="Company Logo" id="logo">
-    </header>
- Card displaying the total amount of fines across all employees -->
-<div class="container">
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/fines-dashboard/overview.html">Overview</a>
-        <a href="/fines-dashboard/fines.html">View Fines</a>
-    </nav>
-    <div class="card">
-        <div class="title">
-            
-            <p class="title-text">Total Fines Across All Employees.</p>
-        </div>
-        <div class="data">
-            <p id="total-fines">R0</p> <!-- Dynamic grand total amount of fines -->
-        </div>
-    </div>
+    <div class="container">
+        <h1>Employee Fines</h1>
 
-        <div class="container_1">
-            <h1>Gubis85 Solutions Employee Fines</h1>
+        <!-- Navigation -->
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/fines-dashboard/overview.html">Overview</a>
+            <a href="/fines-dashboard/fines.html">View Fines</a>
+        </nav>
+
+        <!-- Total Fines Card -->
+        <div class="card">
+            <h2>Total Fines</h2>
+            <div class="data">
+                <p id="total-fines">R0</p>
+            </div>
+        </div>
+
+        <!-- Employee Fine Details -->
+        <div class="card">
+            <h2>Employee Fine Details</h2>
             <ul id="employee-list"></ul>
             <div id="fine-details" class="hidden">
                 <h2 id="employee-name"></h2>
@@ -38,21 +37,8 @@
             </div>
         </div>
 
-        <div id="dispute-form" class="hidden">
-            <h2>Dispute Fine</h2>
-            <form id="dispute" onsubmit="submitDispute(event)">
-                <label for="employee-email">Your Email:</label>
-                <input type="email" id="employee-email" required>
-
-                <label for="fine-reason">Reason for Dispute:</label>
-                <textarea id="fine-reason" required></textarea>
-
-                <button type="submit">Submit Dispute</button>
-                <button type="button" onclick="cancelDispute()">Cancel</button>
-            </form>
-        </div>
-
-        <div id="dispute-form" class="hidden">
+        <!-- Dispute Form -->
+        <div id="dispute-form" class="card hidden">
             <h2>Dispute Fine</h2>
             <form id="dispute" onsubmit="submitDispute(event)">
                 <label for="employee-email">Your Email:</label>
@@ -66,8 +52,7 @@
             </form>
         </div>
     </div>
-</div>
-        
+
     <footer>
         Copyright © - 2024. All rights reserved. Developed by ZWANZIG SOLUTIONS
     </footer>

@@ -1,0 +1,221 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #e0e0e0; /* Light text color */
+        margin: 0;
+        padding: 20px;
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: #1e1e1e; /* Darker header */
+        padding: 10px;
+    }
+    
+    #logo {
+        max-width: 200px;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #1e1e1e; /* Dark background for content */
+        color: #ffffff; /* Light text for content */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        flex: 1;
+    }
+    
+    
+    h1 {
+        color: #ffffff; /* Light header color */
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px;
+        border-bottom: 1px solid #444; /* Subtle line */
+        cursor: pointer;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    nav a {
+        color: #ff6600;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    li:last-child {
+        border-bottom: none;
+    }
+    
+    li:hover {
+        background-color: #333; /* Slight hover effect */
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    button {
+        background-color: #ff6600; /* Bright button for contrast */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #e55c00; /* Slight hover effect */
+    }
+    
+    /* Form */
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #555; /* Darker input borders */
+        background-color: #333; /* Dark input background */
+        color: #ffffff; /* Light input text */
+        font-size: 16px;
+    }
+    
+    textarea {
+        resize: none;
+        height: 100px;
+    }
+    
+    #dispute-form button {
+        width: auto;
+        margin-right: 10px;
+    }
+    
+    /* Footer Styling */
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333; /* Darker footer */
+        color: white;
+        font-size: 14px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+    
+        h1 {
+            font-size: 20px;
+        }
+    
+        li {
+            font-size: 16px;
+            padding: 8px;
+        }
+    
+        button {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+    
+        .container {
+            padding: 15px;
+        }
+    
+        footer {
+            font-size: 12px;
+        }
+    
+        #logo {
+            max-width: 150px;
+        }
+    }
+    /* Card container styling */
+    .card {
+        padding: 1rem;
+        background-color: #1e1e1e;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        max-width: 800px;
+        border-radius: 20px;
+        margin: 1rem auto;
+        transition: transform 0.3s;
+      }
+      
+      .card:hover {
+        transform: scale(1.02);
+      }
+      
+      /* Title styling */
+      .title {
+        display: flex;
+        align-items: center;
+      }
+      
+      .title span {
+        position: relative;
+        padding: 0.5rem;
+        background-color: #b96410;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 9999px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .title-text {
+        margin-left: 0.5rem;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      /* Total fines amount styling */
+      .data {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .data p {
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+      }
+      

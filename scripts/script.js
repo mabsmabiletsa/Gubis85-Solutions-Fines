@@ -259,16 +259,39 @@ let currentEmployee = '';
 
 function displayEmployees() {
     const employeeList = document.getElementById('employee-list');
-    employeeList.innerHTML = '';
+    employeeList.innerHTML = ''; // Clear the list before displaying sorted items
+    
+    // Get selected sorting criteria
+    const sortCriteria = document.getElementById('sortCriteria').value;
 
-    employees.forEach((employee, index) => {
+    // Clone and sort employees array based on the selected criteria
+    const sortedEmployees = [...employees].sort((a, b) => {
+        if (sortCriteria === 'amount') {
+            const totalA = a.fines.reduce((sum, fine) => sum + fine.amount, 0);
+            const totalB = b.fines.reduce((sum, fine) => sum + fine.amount, 0);
+            return totalB - totalA; // Sort by total fine amount, descending
+        } else if (sortCriteria === 'date') {
+            // Get latest fine date for each employee (if exists)
+            const latestDateA = Math.max(...a.fines.map(fine => new Date(fine.date || '1970-01-01')));
+            const latestDateB = Math.max(...b.fines.map(fine => new Date(fine.date || '1970-01-01')));
+            return latestDateB - latestDateA; // Sort by latest date, descending
+        } else if (sortCriteria === 'name') {
+            return a.name.localeCompare(b.name); // Sort alphabetically by name
+        }
+    });
+
+    // Display the sorted employee list
+    sortedEmployees.forEach(employee => {
         const total = employee.fines.reduce((sum, fine) => sum + fine.amount, 0);
         const li = document.createElement('li');
         li.textContent = `${employee.name} - R${total}`;
-        li.addEventListener('click', () => showDetails(index));
+        li.addEventListener('click', () => showDetails(employees.indexOf(employee)));
         employeeList.appendChild(li);
     });
 }
+
+// Call the function to calculate and display the total on page load
+
 function calculateGrandTotal() {
     let grandTotal = 0;
     employees.forEach(employee => {
@@ -278,7 +301,6 @@ function calculateGrandTotal() {
 }
 
 // Call the function to calculate and display the total on page load
-calculateGrandTotal();
 
 
 function showDetails(index) {
@@ -323,6 +345,8 @@ function submitDispute(event) {
 
     cancelDispute();
 }
+
+calculateGrandTotal();
 
 displayEmployees();
 

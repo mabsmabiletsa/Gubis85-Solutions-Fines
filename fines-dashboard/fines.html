@@ -25,6 +25,15 @@
             </div>
         </div>
 
+        <div class="sort-container">
+            <label for="sortCriteria">Sort By:</label>
+            <select id="sortCriteria" onchange="displayEmployees()">
+                <option value="amount">Amount</option>
+                <option value="date">Date</option>
+                <option value="name">Employee Name</option>
+            </select>
+        </div>
+        
         <!-- Employee Fine Details -->
         <div class="card">
             <h2>Employee Fine Details</h2>
@@ -36,6 +45,7 @@
                 <button onclick="showDisputeForm()">Dispute Fine</button>
             </div>
         </div>
+
 
         <!-- Dispute Form -->
         <div id="dispute-form" class="card hidden">
@@ -52,6 +62,7 @@
             </form>
         </div>
     </div>
+    
 
     <footer>
         Copyright © - 2024. All rights reserved. Developed by ZWANZIG SOLUTIONS

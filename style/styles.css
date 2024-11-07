@@ -168,6 +168,41 @@ footer {
     margin-top: 20px;
     border-radius: 5px;
 }
+/* Sort container styling */
+.sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: #ff6600; /* Highlight color for label */
+}
+
+/* Label inside sort container */
+.sort-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Dropdown styling */
+.sort-container select {
+    padding: 8px 12px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sort-container select:hover {
+    background-color: #3a3a3a;
+}
+
+.sort-container select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6600; /* Focus ring for accessibility */
+}
 
 /* Responsive adjustments */
 @media (max-width: 600px) {

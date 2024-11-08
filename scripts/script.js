@@ -143,6 +143,7 @@ const employees = [
         fines: [
             { amount: 500, reason: "For not wearing appropriate uniform", date: "21-10-2024" },
             { amount: 1000, reason: "For late coming.", date: "25-10-2024" },             
+            { amount: 500, reason: "For giving unathorized instruction to MR Ramphisa", date: "7-11-2024" },
 
          ]
     },
@@ -166,7 +167,7 @@ const employees = [
     {
         name: "Oriel Sefoloko",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "For giving unathorized instruction to MR Ramphisa", date: "7-11-2024" },
 
         ]
     },

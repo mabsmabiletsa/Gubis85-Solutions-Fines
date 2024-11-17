@@ -2,7 +2,7 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 2000, reason: "Poor work performance (Fleet)", date: "17-11-2024" },             
 
         ]
     },
@@ -16,7 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 2000, reason: "Poor work performance (Fleet)", date: "17-11-2024" },             
                 
 
         ]
@@ -30,7 +30,7 @@ const employees = [
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 2000, reason: "Failure to procedurely communicate tasks", date:"21-10-2024" },             
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
@@ -56,17 +56,14 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
-            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Katlego Moagi",
-        fines: [
-            { amount: 4000, reason: "For reporting late in behalf of other employees", date: "22-10-2024" },          
-            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
-            { amount: 2000, reason: "For late coming", date: "26-10-2024" },             
+        fines: [         
+            { amount: 250, reason: "Leaving vehicle unlocked", date: "15-11-2024" },             
 
           
         ]
@@ -81,19 +78,19 @@ const employees = [
     {
         name: "Surprise Motha",
         fines: [
-            { amount: 250, reason: "For not leaving Tamboti keys behind", date: "04-11-2024" },             
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Kamogelo Monakwe",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
@@ -105,18 +102,14 @@ const employees = [
     {
         name: "Mzwandile Mabiletsa",
         fines: [
-            { amount: 1000, reason: "For not reporting in time", date: "21-10-2024" },
-            { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
-            { amount: 1000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
-            { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
-            { amount: 1000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
@@ -141,9 +134,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 500, reason: "For not wearing appropriate uniform", date: "21-10-2024" },
-            { amount: 1000, reason: "For late coming.", date: "25-10-2024" },             
-            { amount: 500, reason: "For giving unathorized instruction to MR Ramphisa", date: "7-11-2024" },
+            { amount: 0, reason: "NO FINES" },
 
          ]
     },
@@ -155,7 +146,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
@@ -167,7 +158,7 @@ const employees = [
     {
         name: "Oriel Sefoloko",
         fines: [
-            { amount: 500, reason: "For giving unathorized instruction to MR Ramphisa", date: "7-11-2024" },
+            { amount: 2500, reason: "Late coming", date: "17-11-2024" },             
 
         ]
     },
@@ -186,23 +177,21 @@ const employees = [
     {
         name: "Mathews Gaubose",
         fines: [
-            { amount: 1000, reason: "for delaying other CPO'S", date: "28-10-2024" },             
-            { amount: 500, reason: "Parking in the wrong parking", date: "01-11-2024" },
-            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Nigel Khumalo",
         fines: [
-            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Thabang Mathaba",
         fines: [
-            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
@@ -221,7 +210,7 @@ const employees = [
     {
         name: "Ntshuxeko Makwakwa",
         fines: [
-            { amount: 1500, reason: "Poor work performance", date : "01-11-2024" },             
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {

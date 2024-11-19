@@ -30,7 +30,7 @@ const employees = [
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 2000, reason: "For not reporting her absenteeism", date: "18-11-2024" },             
 
         ]
     },
@@ -71,7 +71,7 @@ const employees = [
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },             
    
         ]
     },
@@ -84,7 +84,7 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },             
         ]
     },
     {

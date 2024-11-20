@@ -241,6 +241,31 @@ const employees = [
   
         ]
     },
+    {
+        name: "Zweli Mavuso",
+        fines: [
+            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
+            
+  
+        ]
+    },
+    {
+        name: "Thabiso Rammutla",
+        fines: [
+            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
+            
+  
+        ]
+    },
+    {
+        name: "S Mabena",
+        fines: [
+            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
+            
+  
+        ]
+    },
+
 
     // Add more employees and fines here
 ];

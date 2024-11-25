@@ -96,7 +96,7 @@ const employees = [
     {
         name: "Luzuko Komani",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 250, reason: "Carelessness", date: "23-11-2024" },             
         ]
     },
     {

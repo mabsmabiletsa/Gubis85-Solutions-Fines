@@ -63,9 +63,8 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [         
-            { amount: 250, reason: "Leaving vehicle unlocked", date: "15-11-2024" },             
-
-          
+            { amount: 250, reason: "Leaving vehicle unlocked", date: "15-11-2024" },   
+            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
         ]
     },
     {
@@ -78,7 +77,7 @@ const employees = [
     {
         name: "Surprise Motha",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
         ]
     },
     {
@@ -261,8 +260,7 @@ const employees = [
         name: "S Mabena",
         fines: [
             { amount: 500, reason: "For late coming", date: "20-11-2024" },             
-            
-  
+            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
         ]
     },
 

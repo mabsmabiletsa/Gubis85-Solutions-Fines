@@ -16,7 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 2000, reason: "Failing to follow instructions", date: "30-11-2024" },             
                 
 
         ]
@@ -263,7 +263,24 @@ const employees = [
             { amount: 500, reason: "Late coming", date: "28-11-2024" },            
         ]
     },
-
+    {
+        name: "Johnny ",
+        fines: [
+            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+        ]
+    },
+    {
+        name: "Sibayoni",
+        fines: [
+            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+        ]
+    },
+    {
+        name: "Dludlu",
+        fines: [
+            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+        ]
+    },
 
     // Add more employees and fines here
 ];

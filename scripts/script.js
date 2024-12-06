@@ -70,7 +70,9 @@ const employees = [
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },             
+            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },  
+            { amount: 2000, reason: "Poor work performance", date: "6-12-2024" },             
+           
    
         ]
     },

@@ -82,7 +82,9 @@ const employees = [
     {
         name: "Surprise Motha",
         fines: [
-            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
+            { amount: 500, reason: "Late coming", date: "28-11-2024" },    
+            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+        
         ]
     },
     {
@@ -186,9 +188,9 @@ const employees = [
         ]
     },
     {
-        name: "Nigel Khumalo",
+        name: "Nathi Khumalo",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
 
         ]
     },
@@ -248,15 +250,29 @@ const employees = [
     {
         name: "Zweli Mavuso",
         fines: [
-            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
+            { amount: 500, reason: "For late coming", date: "20-11-2024" },     
+            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+        
             
   
         ]
     },
     {
+        name: "Lindokhuhle Thabede",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+        
+            
+  
+        ]
+    },
+
+    {
         name: "Thabiso Rammutla",
         fines: [
-            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
+            { amount: 500, reason: "For late coming", date: "20-11-2024" },   
+            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+          
             
   
         ]

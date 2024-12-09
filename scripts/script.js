@@ -64,14 +64,17 @@ const employees = [
         name: "Katlego Moagi",
         fines: [         
             { amount: 250, reason: "Leaving vehicle unlocked", date: "15-11-2024" },   
-            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
+            { amount: 500, reason: "Late coming", date: "28-11-2024" },          
+            { amount: 1000, reason: "Late coming", date: "9-12-2024" },                     
+  
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [ 
             { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },  
-            { amount: 2000, reason: "Poor work performance", date: "6-12-2024" },             
+            { amount: 2000, reason: "Poor work performance", date: "6-12-2024" },   
+            { amount: 1000, reason: "Late coming", date: "9-12-2024" },                     
            
    
         ]
@@ -147,7 +150,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 1000, reason: "Late coming", date: "9-12-2024" },                     
         ]
     },
     {

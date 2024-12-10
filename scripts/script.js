@@ -158,13 +158,21 @@ const employees = [
     {
         name: "Tshwarelo Ndala",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Late coming", date: "10-12-2024" },            
         ]
     },
     {
         name: "Oriel Sefoloko",
         fines: [
-            { amount: 2500, reason: "Late coming", date: "17-11-2024" },             
+            { amount: 2500, reason: "Late coming", date: "17-11-2024" },        
+            { amount: 500, reason: "Late coming", date: "10-12-2024" },                 
+
+        ]
+    },
+    {
+        name: "Silas Ramphisa",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "10-12-2024" },                 
 
         ]
     },

@@ -142,7 +142,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Lack of concentration and poor inspection of vehicle", date: "12-12-2024" },             
 
          ]
     },

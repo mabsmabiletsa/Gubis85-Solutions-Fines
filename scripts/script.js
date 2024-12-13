@@ -207,7 +207,7 @@ const employees = [
     {
         name: "Thabang Mathaba",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Late coming", date: "13-12-2024" },            
 
         ]
     },

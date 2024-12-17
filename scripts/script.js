@@ -50,7 +50,7 @@ const employees = [
     {
         name: "Lesego Matea",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
         ]
     },
     {
@@ -62,36 +62,28 @@ const employees = [
     },
     {
         name: "Katlego Moagi",
-        fines: [         
-            { amount: 250, reason: "Leaving vehicle unlocked", date: "15-11-2024" },   
-            { amount: 500, reason: "Late coming", date: "28-11-2024" },          
-            { amount: 1000, reason: "Late coming", date: "9-12-2024" },                     
+        fines: [                        
             { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },    
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },  
-            { amount: 2000, reason: "Poor work performance", date: "6-12-2024" },   
-            { amount: 1000, reason: "Late coming", date: "9-12-2024" },                     
-            { amount: 1000, reason: "Not reporting to the office", date: "11-12-2024" },    
+        
             { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },    
         ]
     },
     {
         name: "Surprise Motha",
         fines: [
-            { amount: 500, reason: "Late coming", date: "28-11-2024" },    
-            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+            { amount: 0, reason: "NO FINES" },             
+         
         
         ]
     },
     {
         name: "Kamogelo Methlape",
-        fines: [
-            { amount: 1000, reason: "Not reporting through proper channels", date: "19-11-2024" },         
-            { amount: 1000, reason: "Not reporting to the office", date: "11-12-2024" },             
+        fines: [         
             { amount: 3000, reason: "Poor work performance", date: "17-12-2024" },             
         ]
     },
@@ -104,20 +96,20 @@ const employees = [
     {
         name: "Luzuko Komani",
         fines: [
-            { amount: 250, reason: "Carelessness", date: "23-11-2024" },             
+            { amount: 1000, reason: "Late coming", date: "17-12-2024" },             
         ]
     },
     {
         name: "Mzwandile Mabiletsa",
         fines: [
-            { amount: 1000, reason: "Poor work performance", date: "2-12-2024" },             
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
 
         ]
     },
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 500, reason: "Poor work performance", date: "22-11-2024" },             
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
@@ -142,7 +134,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 500, reason: "Lack of concentration and poor inspection of vehicle", date: "12-12-2024" },             
+            { amount: 0, reason: "NO FINES" },             
 
          ]
     },
@@ -160,21 +152,20 @@ const employees = [
     {
         name: "Tshwarelo Ndala",
         fines: [
-            { amount: 500, reason: "Late coming", date: "10-12-2024" },            
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Oriel Sefoloko",
         fines: [
-            { amount: 2500, reason: "Late coming", date: "17-11-2024" },        
-            { amount: 500, reason: "Late coming", date: "10-12-2024" },                 
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
     {
         name: "Silas Ramphisa",
         fines: [
-            { amount: 500, reason: "Late coming", date: "10-12-2024" },                 
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
@@ -200,7 +191,7 @@ const employees = [
     {
         name: "Nathi Khumalo",
         fines: [
-            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
@@ -214,7 +205,7 @@ const employees = [
     {
         name: "Kate Lebese",
         fines: [
-            { amount: 1000, reason: "Poor work performacne", date: "9-12-2024" },            
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -260,17 +251,14 @@ const employees = [
     {
         name: "Zweli Mavuso",
         fines: [
-            { amount: 500, reason: "For late coming", date: "20-11-2024" },     
-            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
-        
-            
-  
+            { amount: 0, reason: "NO FINES" },             
+
         ]
     },
     {
         name: "Lindokhuhle Thabede",
         fines: [
-            { amount: 500, reason: "Late coming", date: "9-12-2024" },            
+            { amount: 0, reason: "NO FINES" },             
         
             
   
@@ -280,35 +268,70 @@ const employees = [
     {
         name: "Thabiso Rammutla",
         fines: [
-            { amount: 500, reason: "For late coming", date: "20-11-2024" },   
-            { amount: 500, reason: "Late coming", date: "9-12-2024" }, 
-            { amount: 500, reason: "Questioning a fine", date: "9-12-2024" }, 
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
     {
         name: "S Mabena",
         fines: [
-            { amount: 500, reason: "For late coming", date: "20-11-2024" },             
-            { amount: 500, reason: "Late coming", date: "28-11-2024" },            
+            { amount: 0, reason: "NO FINES" },             
+         
         ]
     },
     {
         name: "Johnny ",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Sibayoni",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Dludlu",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "30-11-2024" },             
+            { amount: 0, reason: "NO FINES" },             
+        ]
+    },
+    {
+        name: "Rox Boroko",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
+
+        ]
+    },
+    {
+        name: "JD Matshinye",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
+        ]
+    },
+    {
+        name: "Nkosinathi Magagula",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
+        ]
+    },
+    {
+        name: "Jimmy Simbini",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
+        ]
+    },
+    {
+        name: "Johnny Ledwaba",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
+        ]
+    },
+    {
+        name: "Johnny Makgamathe",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-12-2024" },             
         ]
     },
 

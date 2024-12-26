@@ -97,7 +97,7 @@ const employees = [
         name: "Luzuko Komani",
         fines: [
             { amount: 1000, reason: "Late coming", date: "17-12-2024" },                
-            { amount: 3000, reason: "Discipline", date: "26-12-2024" },              
+            { amount: 2000, reason: "Discipline", date: "26-12-2024" },              
         ]
     },
     {
@@ -153,7 +153,7 @@ const employees = [
     {
         name: "Tshwarelo Ndala",
         fines: [
-            { amount: 3000, reason: "Discipline", date: "26-12-2024" },             
+            { amount: 2000, reason: "Discipline", date: "26-12-2024" },             
         ]
     },
     {
@@ -192,7 +192,7 @@ const employees = [
     {
         name: "Nathi Khumalo",
         fines: [
-            { amount: 3000, reason: "Discipline", date: "26-12-2024" },             
+            { amount: 2000, reason: "Discipline", date: "26-12-2024" },             
 
         ]
     },

@@ -63,7 +63,8 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [                        
-            { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },    
+            { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },      
+            { amount: 3000, reason: "Failing to follow instructions", date: "31-12-2024" },    
         ]
     },
     {

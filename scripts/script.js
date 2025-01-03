@@ -56,14 +56,14 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 2000, reason: "Poor work performance", date: "17-12-2024" },             
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
     {
         name: "Katlego Moagi",
         fines: [                        
-            { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },      
+
             { amount: 3000, reason: "Failing to follow instructions", date: "31-12-2024" },    
         ]
     },
@@ -71,7 +71,7 @@ const employees = [
         name: "Hope Monakwe",
         fines: [ 
         
-            { amount: 2000, reason: "Disloyalty", date: "16-12-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -85,7 +85,7 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [         
-            { amount: 3000, reason: "Poor work performance", date: "17-12-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {

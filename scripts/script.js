@@ -16,7 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 0, reason: "NO FINES" },
+            { amount: 10000, reason: "Not bringing chairs for the photoshoot", date: "3-01-2024" },             
                 
 
         ]

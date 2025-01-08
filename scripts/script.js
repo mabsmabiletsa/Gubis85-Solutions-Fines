@@ -2,7 +2,7 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "Conspiracy in wrong decision", date: "8-01-2025" },             
 
         ]
     },
@@ -16,8 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 8000, reason: "Not bringing chairs for the photoshoot", date: "3-01-2025" },             
-                
+            { amount: 8000, reason: "Not bringing chairs for the photoshoot", date: "3-01-2025" },               { amount: 3000, reason: "Poor work performance", date: "7-01-2025" },             
 
         ]
     },
@@ -31,7 +30,8 @@ const employees = [
         name: "Precious Skosana",
         fines: [
             { amount: 10000, reason: "Poor work performance", date: "6-01-2025" },             
-
+            { amount: 10000, reason: "Poor work performance", date: "7-01-2025" },           
+           { amount: 1000, reason: "Not following company policies", date: "8-01-2025" },             
         ]
     },
     {
@@ -43,7 +43,7 @@ const employees = [
     {
         name: "Lesego Moatshe",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 5000, reason: "Poor work performance", date: "7-01-2025" },             
 
         ]
     },

@@ -1,26 +1,46 @@
-
-</<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Unavailable</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: #000;
+        }
+        .background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            z-index: -1;
+        }
+        .content {
             text-align: center;
-            padding: 50px;
         }
         h1 {
-            color: #333;
+            font-size: 3em;
+            margin-bottom: 0.5em;
         }
         p {
-            color: #666;
+            font-size: 1.5em;
         }
     </style>
 </head>
 <body>
-    <h1>Site Unavailable</h1>
-    <p>We're sorry, but this site is no longer available.</p>
+    <div class="background"></div>
+    <div class="content">
+        <h1>Site Unavailable</h1>
+        <p>We're sorry, but this site is no longer available.</p>
+    </div>
 </body>
 </html>
-

@@ -32,6 +32,7 @@ const employees = [
             { amount: 10000, reason: "Poor work performance", date: "6-01-2025" },             
             { amount: 10000, reason: "Poor work performance", date: "7-01-2025" },           
            { amount: 1000, reason: "Not following company policies", date: "8-01-2025" },             
+        { amount: 1000, reason: "Poor work performance", date: "8-01-2025" },             
         ]
     },
     {

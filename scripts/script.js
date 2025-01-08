@@ -124,7 +124,7 @@ const employees = [
     {
         name: "Matimba Chauke",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "Absent without reporting",date: "8-1-2025" },             
         ]
     },
     {

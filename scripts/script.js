@@ -16,7 +16,9 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 8000, reason: "Not bringing chairs for the photoshoot", date: "3-01-2025" },               { amount: 3000, reason: "Poor work performance", date: "7-01-2025" },             
+            { amount: 8000, reason: "Not bringing chairs for the photoshoot", date: "3-01-2025" },         
+            { amount: 3000, reason: "Poor work performance", date: "7-01-2025" },             
+            { amount: 6500, reason: "Poor work performance", date: "8-01-2025" },             
 
         ]
     },
